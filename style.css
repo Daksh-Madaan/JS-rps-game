@@ -1,0 +1,77 @@
+body {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.btn-panel {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px dashed rgb(195, 195, 255);
+    background: ghostwhite;
+    border-radius: 30px;
+    padding: 3vh;
+    max-width: 50%;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.btn-panel  button {
+    font-family: 'Ubuntu Mono', monospace;
+    width: 8rem;
+    padding: 10px;
+    font-size: larger;
+    background: white;
+    border: 1px solid rgb(195, 195, 255);
+    border-radius: 30px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.choice-panel {
+    font-size: larger;
+    border: 2px dashed rgb(195, 195, 255);
+    background: rgb(225, 255, 254);
+    border-radius: 30px;
+    padding: 12px;
+    max-width: 450px;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.result-panel {
+    font-size: larger;
+    border: 2px dashed rgb(195, 195, 255);
+    background: rgb(255, 255, 238);
+    border-radius: 30px;
+    padding: 12px;
+    max-width: 450px;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+.result-panel  button {
+    font-family: 'Ubuntu Mono', monospace;
+    width: 8rem;
+    padding: 10px;
+    font-size: large;
+    background: white;
+    border: 1px solid rgb(195, 195, 255);
+    border-radius: 30px;
+    margin: auto;
+    cursor: pointer;
+}
+@media (max-width: 2560px) {
+    .btn-panel {
+        max-width: 40%;
+        width: 100%;
+        
+    }
+}  
+@media (max-width: 1024px) {
+    .btn-panel {
+        max-width: 80%;
+        width: 100%;
+        
+    }
+}  
+

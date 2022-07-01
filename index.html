@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DM - RPS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="btn-panel">
+        <button class="btn1" name="rock" onclick="choice()">Rock</button>
+        <button class="btn2" name="paper" onclick="choice()">Paper</button>
+        <button class="btn3" name="scissors" onclick="choice()">Scissors</button>
+    </div>
+    
+    <div class="choice-panel">
+        <label>Your choice:</label>
+        <h5 id="player"></h5>
+        <label>Computer's choice:</label>
+        <h5 id="computer"></h5>
+    </div>
+
+    <div class="result-panel" id="bg">
+        <h3>Result</h3>
+        <h4 id="result"></h4>
+        <button onClick="window.location.reload();">Play Again</button>
+    </div>
+    <a href="https://www.youtube.com/c/Technoblade" target="_blank" style="position:fixed; bottom: 0;">RIP Technoblade(30/6/22)</a>
+    <script src="index.js"></script>
+</body>
+</html>

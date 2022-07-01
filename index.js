@@ -19,7 +19,7 @@ function choice(){
         document.getElementById('bg').style.background = '#c3f0c2';
     }else {
         result = 'You lose';
-        document.getElementById('bg').style.background = '#f0c2c2';
+        document.getElementById('bg').style.background = '#ffb5b5';
     }
     document.getElementById("player").innerHTML = player;
     document.getElementById("computer").innerHTML = computer;
